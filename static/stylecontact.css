@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+h2{
+    text-align: center;
+    margin: 12px 0px;
+    font-family: 'Playfair Display', serif;
+}
+.container{
+    min-height: 80vh;
+    /* display: flex;
+    align-items: center;
+    flex-direction: column; */
+}
+.myForm{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.myInput{
+    padding: 6px;
+    margin: 4px;
+    width: 30%;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 6px;
+}
+.btn{
+    margin: 8px;
+    padding: 5px 10px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #f37676;
+    /* color: black; */
+    font-weight: 600;
+}

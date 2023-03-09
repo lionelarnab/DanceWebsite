@@ -1,0 +1,39 @@
+extends base.pug 
+
+//- block scripts 
+//-   script(src='/static/index.js')
+
+block style 
+    style 
+        include ../static/style.css
+        include ../static/stylecontact.css
+        include ../static/styleclass.css
+block content 
+    div.container_class
+        h2 ABCD - Any Body Can Dance
+        <p> Here You will learn all types of dance form - #[b Classical, Western and folk dances]
+        <br> Experienced and renowned choreographers take classes.
+        <br> Don't worry!! we are here to help you become a master from a beginner.
+        <br> #[b Hurry Up.. Come and Join with us.]
+
+        div.class_section
+            div.class_box    
+                div.class_img
+                    img(src='/static/basic_dance.jpg')
+                div.class_content
+                    <h3> Basic Class
+                <p> Fees-300/- <br> Weekly 2 days <br> Duration - 2 hour
+            div.class_box    
+                div.class_img
+                    img(src='/static/intermediate_dance.jpg')
+                div.class_content
+                    <h3> Intermediate Class
+                <p> Fees-700/- <br> Weekly 2 days <br> Duration - 2 hour 30 min
+            div.class_box    
+                div.class_img
+                    img(src='/static/advance_dance.jpg')
+                div.class_content
+                    <h3> Advance Class
+                <p> Fees-1000/- <br> Weekly 1 days <br> Duration - 3 hour
+                    //- div.class_para
+                    //- <p> Fees - 400/-

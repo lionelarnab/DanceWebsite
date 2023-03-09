@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+.container_class{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.container_class h1{
+    font-family: 'Courgette', cursive;
+}
+.container_class p{
+    text-align: center;
+    padding-top: 10px;
+    line-height: 1.5em;
+    font-size: 24px;
+}
+.class_box{
+    display: inline-block;
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    margin: 23px 15px;
+    width: 31%;
+    height: 500px;
+    padding: 2px;
+}
+.class_img img{
+    height: 295px;
+    width: 425px;
+}
+.class_content h3{
+    text-align: center;
+}
+.class_content p{
+    text-align: left;
+}

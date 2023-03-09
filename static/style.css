@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+* {
+    /*This is called reset for css --> this is used to fill the page 100% in the browser*/
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#logo{
+    display: flex;
+    margin: 0 12px;
+    color: white;
+    align-items: center;
+    font-size: 70%;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+#logo img{
+    height: 45px;
+    filter: invert(1);
+}
+#navbar {
+    font-family: 'Alkalami', serif;
+    background-color: rgb(242 73 73);
+    padding: 7px 14px;
+}
+
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#navbar li {
+    list-style: none;
+}
+
+#navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 25px;
+    /* font-weight: bold; */
+    font-size: 22px;
+}
+
+#navbar li a:hover {
+    color: rgb(79, 69, 69);
+    
+}
+#IntroSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'PT Serif', serif;
+    font-size: 35px;
+    background: center/cover no-repeat url('../static/dance_bg.jpg');
+    background-color: red;
+    height: 425px;
+}
+#IntroSection div.small{
+    font-size: 1.5rem;
+    padding: 5px;
+}
+
+#MissonSection {
+    /* background-color: rgba(244, 167, 167, 0.972); */
+    height: 326px;
+    width: 60%;
+    margin: auto;
+}
+
+#MissonSection h2{
+    font-size: 36px;
+    text-align: center;
+    padding-top: 12px;
+    font-family: 'Playfair Display', serif;
+}
+
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 23px 26px;
+    width: 26%;
+    height: 209px;
+    /* padding-left: 10px; */
+}
+
+.card h3{
+    text-align: center;
+    margin: 12px;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img{
+        height: 80px;
+        padding: 5px 3px;
+        margin: 13px -1px;
+}
+.card-img img{
+    height: inherit;
+}
+.card-content p {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0px 4px;
+}
+
+#sponsorSection {
+    background-color: rgba(244, 167, 167, 0.972);
+    height: 250px;
+}
+
+#sponsorSection h2{
+    font-size: 36px;
+    text-align: center;
+    padding-top: 12px;
+    font-family: 'Playfair Display', serif;
+}
+
+#sponsors{
+    height: 197px;
+    max-width: 100%;
+    /* margin:23px auto; */
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 185px;
+}
+.SpImage {
+    height: 50%;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* /margin: auto; */
+    /* margin: auto;} */
+    /* margin-left: 90px; */
+    margin: 10px 0px;
+    padding: 0px 40px;
+}
+#footer {
+    background-color: black;
+    height: 70px;
+    display: flex;
+    color: white;
+    font-size: 17px;
+    justify-content: center;
+    align-items: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* margin: auto; */
+}

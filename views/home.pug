@@ -1,0 +1,45 @@
+extends base.pug 
+
+//- block scripts 
+//-   script(src='/static/index.js')
+
+block style 
+    style 
+        include ../static/style.css
+
+block content 
+    
+
+    section#IntroSection 
+        div Welcome to Arnab Dance Academy 
+        div.small Eat Sleep Dance Repeat
+    section#MissonSection 
+        h2 Our mission 
+        div.card
+            h3 Best Academy 
+            div.card-box
+                div.card-img
+                        img(src='/static/1.png')
+                div.card-content
+                    p Arnab Dance Academy is in top 2% in ranking list of India.
+        div.card
+            h3 Dance the way you like
+            div.card-box
+                div.card-img
+                        img(src='/static/2.png')
+                div.card-content
+                    p Whatever you want to dance... We are here to guide you.
+        div.card
+            h3 Expert Teaching 
+            div.card-box
+                div.card-img
+                        img(src='/static/3.png')
+                div.card-content
+                    p Most expert and experienced teachers are here to teach you.
+    section#sponsorSection 
+        h2 Our sponsors
+        div#sponsors
+            img(src="/static/amazon.png", alt="Sponsor Image", class="SpImage") 
+            img(src="/static/ebay.png", alt="Sponsor Image", class="SpImage") 
+            img(src="/static/flipkart.png", alt="Sponsor Image", class="SpImage") 
+            img(src="/static/microsoft.png", alt="Sponsor Image", class="SpImage")  
